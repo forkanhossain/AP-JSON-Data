@@ -1,0 +1,75 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FinancialService",
+      "@id": "https://www.alliedpayments.com/#organization",
+      "name": "Allied Payments",
+      "legalName": "Allied Payments",
+      "alternateName": "AlliedPay",
+      "url": "https://www.alliedpayments.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+        "width": "300",
+        "height": "70"
+      },
+      "image": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+      "description": "Allied Payments provides industry-leading high-risk merchant account services, specializing in secure credit card processing, ACH, and eCheck solutions for global businesses.",
+      "foundingDate": "2014",
+      "priceRange": "$$",
+      "telephone": "+1-800-315-5755",
+      "email": "info@alliedpayments.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "378 Northlake Blvd, Unit 134",
+        "addressLocality": "North Palm Beach",
+        "addressRegion": "FL",
+        "postalCode": "33408",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.x.com/alliedpayments",
+        "https://www.linkedin.com/company/alliedpayments",
+        "https://www.youtube.com/@alliedpayments"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "High Risk Payment Solutions",
+        "itemListElement": [
+          {
+            "@type": "Service",
+            "name": "High Risk Merchant Accounts",
+            "description": "Specialized account approval for industries often declined by traditional banks."
+          },
+          {
+            "@type": "Service",
+            "name": "High Risk Credit Card Processing",
+            "description": "Secure payment gateways for high-volume and high-risk e-commerce."
+          },
+          {
+            "@type": "Service",
+            "name": "ACH & eCheck Processing",
+            "description": "Reliable alternative payment methods to reduce chargebacks and processing costs."
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.alliedpayments.com/#website",
+      "url": "https://www.alliedpayments.com/",
+      "name": "Allied Payments",
+      "publisher": {
+        "@id": "https://www.alliedpayments.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.alliedpayments.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>
