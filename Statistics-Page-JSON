@@ -1,0 +1,67 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FinancialService",
+      "@id": "https://www.alliedpayments.com/#organization",
+      "name": "Allied Payments",
+      "url": "https://www.alliedpayments.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+        "width": "300",
+        "height": "70"
+      },
+      "image": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+      "telephone": "+1-800-315-5755",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "378 Northlake Blvd, Unit 134",
+        "addressLocality": "North Palm Beach",
+        "addressRegion": "FL",
+        "postalCode": "33408",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.alliedpayments.com/statistics/#webpage",
+      "url": "https://www.alliedpayments.com/statistics/",
+      "name": "Allied Payments Statistics | Insights & Performance Data",
+      "description": "Explore key statistics and performance data from Allied Payments. Gain insights into payment processing trends, high-risk merchant account metrics, and industry analytics.",
+      "isPartOf": { "@id": "https://www.alliedpayments.com/#website" },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.alliedpayments.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Statistics",
+            "item": "https://www.alliedpayments.com/statistics/"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@type": "Dataset",
+        "name": "Allied Payments Payment Processing Data & Trends",
+        "description": "A comprehensive collection of performance metrics and industry insights regarding high-risk merchant accounts, fraud prevention success rates, and global transaction trends.",
+        "publisher": { "@id": "https://www.alliedpayments.com/#organization" },
+        "license": "https://www.alliedpayments.com/terms-of-service/",
+        "variableMeasured": [
+          "Approval Rates",
+          "Transaction Volume Trends",
+          "Fraud Prevention Metrics",
+          "Chargeback Ratios"
+        ]
+      }
+    }
+  ]
+}
+</script>
