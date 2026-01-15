@@ -1,0 +1,69 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FinancialService",
+      "@id": "https://www.alliedpayments.com/#organization",
+      "name": "Allied Payments",
+      "url": "https://www.alliedpayments.com/",
+      "telephone": "+1-800-315-5755",
+      "priceRange": "$$",
+      "image": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+      "logo": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "378 Northlake Blvd, Unit 134",
+        "addressLocality": "North Palm Beach",
+        "addressRegion": "FL",
+        "postalCode": "33408",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "High Risk Merchant Account Services",
+      "image": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+      "description": "Secure payment processing for high-risk industries, featuring low rates, fraud protection, and fast approvals.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Allied Payments"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "11"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.alliedpayments.com/contact/",
+        "price": "0.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Allied Payments specialize in high-risk industries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Allied Payments specializes in providing stable, secure merchant accounts for high-risk industries that traditional banks often decline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get a quote for payment processing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can contact our expert team at +1-800-315-5755 or through our contact page to receive a customized rate quote tailored to your business volume."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
