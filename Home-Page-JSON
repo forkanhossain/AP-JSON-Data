@@ -9,18 +9,19 @@
       "legalName": "Allied Payments",
       "alternateName": "AlliedPayments",
       "url": "https://www.alliedpayments.com/",
+      "foundingDate": "2014",
+      "description": "Allied Payments provides industry-leading high-risk merchant account services, specializing in secure credit card processing, ACH, and eCheck solutions for global businesses.",
       "logo": {
         "@type": "ImageObject",
+        "@id": "https://www.alliedpayments.com/#logo",
         "url": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
         "width": "300",
         "height": "70"
       },
-      "image": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
-      "description": "Allied Payments provides industry-leading high-risk merchant account services, specializing in secure credit card processing, ACH, and eCheck solutions for global businesses.",
-      "foundingDate": "2014",
-      "priceRange": "$$",
+      "image": { "@id": "https://www.alliedpayments.com/#logo" },
       "telephone": "+1-800-315-5755",
       "email": "info@alliedpayments.com",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "378 Northlake Blvd, Unit 134",
@@ -30,9 +31,19 @@
         "addressCountry": "US"
       },
       "sameAs": [
-        "https://www.x.com/alliedpayments",
-        "https://www.linkedin.com/company/alliedpayments",
+        "https://www.facebook.com/alliedpayments",
+        "https://www.linkedin.com/company/alliedpayments/",
+        "https://x.com/alliedpayments",
         "https://www.youtube.com/@alliedpayments"
+      ],
+      "knowsAbout": [
+        "High-Risk Merchant Accounts",
+        "Payment Processing Fees",
+        "Merchant Services",
+        "Risk Management",
+        "ACH Processing",
+        "Fraud Prevention",
+        "eCheck Solutions"
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -61,9 +72,7 @@
       "@id": "https://www.alliedpayments.com/#website",
       "url": "https://www.alliedpayments.com/",
       "name": "Allied Payments",
-      "publisher": {
-        "@id": "https://www.alliedpayments.com/#organization"
-      },
+      "publisher": { "@id": "https://www.alliedpayments.com/#organization" },
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
@@ -72,6 +81,39 @@
         },
         "query-input": "required name=search_term_string"
       }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.alliedpayments.com/#webpage",
+      "url": "https://www.alliedpayments.com/",
+      "name": "Allied Payments | Leading High-Risk Merchant Account Providers",
+      "description": "Allied Payments offers secure high-risk merchant accounts, credit card processing, and ACH solutions. Apply today for fast approvals and competitive rates.",
+      "isPartOf": { "@id": "https://www.alliedpayments.com/#website" },
+      "about": { "@id": "https://www.alliedpayments.com/#organization" },
+      "mainEntity": [
+        { "@id": "https://www.alliedpayments.com/#organization" },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a high-risk merchant account?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A high-risk merchant account is a specialized payment processing account for businesses in industries with higher-than-average chargeback rates or regulatory scrutiny."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does the approval process take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Allied Payments strives for fast approvals, often providing merchant account decisions within 24 to 72 hours depending on the industry and documentation provided."
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
