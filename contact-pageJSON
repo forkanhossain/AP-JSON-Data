@@ -7,10 +7,17 @@
       "@id": "https://www.alliedpayments.com/#organization",
       "name": "Allied Payments",
       "url": "https://www.alliedpayments.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.alliedpayments.com/#logo",
+        "url": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+        "width": "300",
+        "height": "70"
+      },
+      "image": { "@id": "https://www.alliedpayments.com/#logo" },
       "telephone": "+1-800-315-5755",
+      "email": "info@alliedpayments.com",
       "priceRange": "$$",
-      "image": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
-      "logo": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "378 Northlake Blvd, Unit 134",
@@ -18,49 +25,87 @@
         "addressRegion": "FL",
         "postalCode": "33408",
         "addressCountry": "US"
-      }
+      },
+      "sameAs": [
+        "https://www.facebook.com/alliedpayments",
+        "https://www.linkedin.com/company/alliedpayments/",
+        "https://x.com/alliedpayments",
+        "https://www.youtube.com/@alliedpayments"
+      ],
+      "knowsAbout": [
+        "High-Risk Merchant Accounts",
+        "Payment Processing Fees",
+        "Merchant Services",
+        "Risk Management",
+        "ACH Processing",
+        "Fraud Prevention"
+      ]
     },
     {
-      "@type": "Product",
-      "name": "High Risk Merchant Account Services",
-      "image": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
-      "description": "Secure payment processing for high-risk industries, featuring low rates, fraud protection, and fast approvals.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Allied Payments"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "bestRating": "5",
-        "ratingCount": "11"
-      },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.alliedpayments.com/contact/",
-        "price": "0.00",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock"
-      }
+      "@type": "WebSite",
+      "@id": "https://www.alliedpayments.com/#website",
+      "url": "https://www.alliedpayments.com/",
+      "name": "Allied Payments",
+      "publisher": { "@id": "https://www.alliedpayments.com/#organization" }
     },
     {
-      "@type": "FAQPage",
+      "@type": "WebPage",
+      "@id": "https://www.alliedpayments.com/contact/#webpage",
+      "url": "https://www.alliedpayments.com/contact/",
+      "name": "Contact Allied Payments | Get a Merchant Account Quote",
+      "description": "Contact the Allied Payments expert team today for a custom payment processing quote. Specialist support for high-risk merchant accounts and global financial solutions.",
+      "isPartOf": { "@id": "https://www.alliedpayments.com/#website" },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.alliedpayments.com/contact/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.alliedpayments.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact",
+            "item": "https://www.alliedpayments.com/contact/"
+          }
+        ]
+      },
       "mainEntity": [
         {
-          "@type": "Question",
-          "name": "Does Allied Payments specialize in high-risk industries?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Allied Payments specializes in providing stable, secure merchant accounts for high-risk industries that traditional banks often decline."
+          "@type": "Product",
+          "name": "High-Risk Merchant Account Services",
+          "description": "Secure payment processing for high-risk industries, featuring low rates and fraud protection.",
+          "brand": { "@id": "https://www.alliedpayments.com/#organization" },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "bestRating": "5",
+            "ratingCount": "11"
           }
         },
         {
-          "@type": "Question",
-          "name": "How do I get a quote for payment processing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can contact our expert team at +1-800-315-5755 or through our contact page to receive a customized rate quote tailored to your business volume."
-          }
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does Allied Payments specialize in high-risk industries?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, Allied Payments specializes in providing stable, secure merchant accounts for high-risk industries that traditional banks often decline."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I get a quote for payment processing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can contact our expert team at +1-800-315-5755 or via our website for a customized rate quote tailored to your business volume."
+              }
+            }
+          ]
         }
       ]
     }
