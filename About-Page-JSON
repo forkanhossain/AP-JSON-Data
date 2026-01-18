@@ -1,0 +1,103 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FinancialService",
+      "@id": "https://www.alliedpayments.com/#organization",
+      "name": "Allied Payments",
+      "url": "https://www.alliedpayments.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.alliedpayments.com/#logo",
+        "url": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+        "width": "300",
+        "height": "70"
+      },
+      "image": { "@id": "https://www.alliedpayments.com/#logo" },
+      "telephone": "+1-800-315-5755",
+      "email": "info@alliedpayments.com",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "378 Northlake Blvd, Unit 134",
+        "addressLocality": "North Palm Beach",
+        "addressRegion": "FL",
+        "postalCode": "33408",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.facebook.com/alliedpayments",
+        "https://www.linkedin.com/company/allied-payments",
+        "https://twitter.com/alliedpayments",
+        "https://www.instagram.com/alliedpayments/"
+      ],
+      "knowsAbout": [
+        "Payment Processing",
+        "Merchant Services",
+        "Risk Management",
+        "High-Risk Merchant Accounts",
+        "ACH Processing",
+        "Fraud Prevention"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.alliedpayments.com/#website",
+      "url": "https://www.alliedpayments.com/",
+      "name": "Allied Payments",
+      "publisher": { "@id": "https://www.alliedpayments.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.alliedpayments.com/about/#webpage",
+      "url": "https://www.alliedpayments.com/about/",
+      "name": "About Allied Payments | Leading Payment Processing Partner",
+      "description": "Learn about Allied Payments, a top-tier provider of secure financial services, high-risk merchant accounts, and global payment solutions.",
+      "isPartOf": { "@id": "https://www.alliedpayments.com/#website" },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.alliedpayments.com/about/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.alliedpayments.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About Us",
+            "item": "https://www.alliedpayments.com/about/"
+          }
+        ]
+      },
+      "mainEntity": [
+        { "@id": "https://www.alliedpayments.com/#organization" },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Why choose Allied Payments for merchant services?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Allied Payments provides industry-leading security, high approval rates for high-risk businesses, and transparent pricing structures designed to help merchants scale globally."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What industries does Allied Payments support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We support a diverse range of industries, specializing in high-risk sectors, e-commerce, retail, and businesses requiring robust ACH and credit card processing solutions."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
