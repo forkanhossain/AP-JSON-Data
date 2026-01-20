@@ -9,12 +9,15 @@
       "url": "https://www.alliedpayments.com/",
       "logo": {
         "@type": "ImageObject",
+        "@id": "https://www.alliedpayments.com/#logo",
         "url": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
         "width": "300",
         "height": "70"
       },
-      "image": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+      "image": { "@id": "https://www.alliedpayments.com/#logo" },
       "telephone": "+1-800-315-5755",
+      "email": "info@alliedpayments.com",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "378 Northlake Blvd, Unit 134",
@@ -22,17 +25,38 @@
         "addressRegion": "FL",
         "postalCode": "33408",
         "addressCountry": "US"
-      }
+      },
+      "sameAs": [
+        "https://www.facebook.com/alliedpayments",
+        "https://www.linkedin.com/company/alliedpayments/",
+        "https://x.com/alliedpayments",
+        "https://www.youtube.com/@alliedpayments"
+      ],
+      "knowsAbout": [
+        "Financial Technology Careers",
+        "Payment Processing Operations",
+        "Risk Management",
+        "Merchant Services Support",
+        "Fintech Innovation"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.alliedpayments.com/#website",
+      "url": "https://www.alliedpayments.com/",
+      "name": "Allied Payments",
+      "publisher": { "@id": "https://www.alliedpayments.com/#organization" }
     },
     {
       "@type": "WebPage",
       "@id": "https://www.alliedpayments.com/jobs/#webpage",
       "url": "https://www.alliedpayments.com/jobs/",
-      "name": "Careers at Allied Payments | Join Our Team",
-      "description": "Explore exciting career opportunities at Allied Payments. Join our team and be part of a leading payment processing company dedicated to innovation and excellence.",
+      "name": "Careers at Allied Payments | Join Our Fintech Team",
+      "description": "Explore career opportunities at Allied Payments. Join a leading financial services team specializing in global payment processing and innovative merchant solutions.",
       "isPartOf": { "@id": "https://www.alliedpayments.com/#website" },
       "breadcrumb": {
         "@type": "BreadcrumbList",
+        "@id": "https://www.alliedpayments.com/jobs/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -48,14 +72,29 @@
           }
         ]
       },
-      "mainEntity": {
-        "@type": "Organization",
-        "name": "Allied Payments Careers",
-        "description": "Discover career opportunities at Allied Payments. We are looking for talented professionals in payment processing, customer support, and fintech sales.",
-        "hiringOrganization": {
-          "@id": "https://www.alliedpayments.com/#organization"
+      "mainEntity": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do I apply for a position at Allied Payments?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can view our current openings on the Jobs page and submit your resume directly through our website or contact our HR department at info@alliedpayments.com."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the company culture like at Allied Payments?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Allied Payments fosters a culture of innovation, integrity, and professional growth, focusing on providing top-tier support for the global merchant community."
+              }
+            }
+          ]
         }
-      }
+      ]
     }
   ]
 }
