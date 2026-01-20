@@ -28,9 +28,9 @@
       },
       "sameAs": [
         "https://www.facebook.com/alliedpayments",
-        "https://www.linkedin.com/company/allied-payments",
-        "https://twitter.com/alliedpayments",
-        "https://www.instagram.com/alliedpayments/"
+        "https://www.linkedin.com/company/alliedpayments/",
+        "https://x.com/alliedpayments",
+        "https://www.youtube.com/@alliedpayments"
       ],
       "knowsAbout": [
         "Payment Processing Fees",
@@ -52,7 +52,7 @@
       "@id": "https://www.alliedpayments.com/fees/#webpage",
       "url": "https://www.alliedpayments.com/fees/",
       "name": "Merchant Account Fees & Pricing | Allied Payments",
-      "description": "Transparent merchant account fees and payment processing pricing. Learn about our competitive rates for high-risk accounts, ACH processing, and global payment gateways.",
+      "description": "Transparent and competitive payment processing fees. Compare rates for high-risk merchant accounts, ACH processing, and global payment solutions with Allied Payments.",
       "isPartOf": { "@id": "https://www.alliedpayments.com/#website" },
       "breadcrumb": {
         "@type": "BreadcrumbList",
@@ -73,32 +73,40 @@
         ]
       },
       "mainEntity": [
-        { "@id": "https://www.alliedpayments.com/#organization" },
+        {
+          "@type": "Offer",
+          "name": "Custom Merchant Account Pricing",
+          "description": "Tailored rate structures including Interchange-Plus and Flat-Rate pricing for high-risk and standard businesses.",
+          "offeredBy": { "@id": "https://www.alliedpayments.com/#organization" },
+          "priceCurrency": "USD",
+          "price": "0.00",
+          "availability": "https://schema.org/InStock"
+        },
         {
           "@type": "FAQPage",
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "What are the setup fees for a merchant account with Allied Payments?",
+              "name": "How are merchant account fees determined?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Allied Payments offers competitive setup structures. While many standard accounts feature $0 setup fees, high-risk merchant accounts may vary based on industry and processing volume. Contact our team for a custom quote."
+                "text": "Fees are based on several factors including your industry risk level, monthly processing volume, average ticket size, and the specific payment methods (ACH vs. Credit Card) you choose to accept."
               }
             },
             {
               "@type": "Question",
-              "name": "Do you offer Interchange Plus pricing?",
+              "name": "Are there hidden monthly fees with Allied Payments?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, we provide transparent Interchange Plus pricing models, ensuring merchants pay the actual cost of the transaction plus a fixed, low margin, eliminating hidden markups."
+                "text": "No. Allied Payments prides itself on transparency. We provide a full breakdown of all costs, including statement fees, gateway fees, and PCI compliance, before you sign any agreement."
               }
             },
             {
               "@type": "Question",
-              "name": "Are there monthly minimum fees?",
+              "name": "Do high-risk businesses pay higher fees?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Our fee structure is tailored to your business size. We aim to provide low to no monthly minimums for active merchants to ensure cost-effective payment processing."
+                "text": "High-risk industries may face higher interchange or reserve requirements due to increased chargeback risks, but we work with a network of banks to ensure we negotiate the most competitive rates possible for your specific sector."
               }
             }
           ]
