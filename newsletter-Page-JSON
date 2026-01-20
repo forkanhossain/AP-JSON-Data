@@ -9,12 +9,15 @@
       "url": "https://www.alliedpayments.com/",
       "logo": {
         "@type": "ImageObject",
+        "@id": "https://www.alliedpayments.com/#logo",
         "url": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
         "width": "300",
         "height": "70"
       },
-      "image": "https://www.alliedpayments.com/wp-content/uploads/New-Logo-AlliedPayments-300.png",
+      "image": { "@id": "https://www.alliedpayments.com/#logo" },
       "telephone": "+1-800-315-5755",
+      "email": "info@alliedpayments.com",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "378 Northlake Blvd, Unit 134",
@@ -22,17 +25,38 @@
         "addressRegion": "FL",
         "postalCode": "33408",
         "addressCountry": "US"
-      }
+      },
+      "sameAs": [
+        "https://www.facebook.com/alliedpayments",
+        "https://www.linkedin.com/company/alliedpayments/",
+        "https://x.com/alliedpayments",
+        "https://www.youtube.com/@alliedpayments"
+      ],
+      "knowsAbout": [
+        "Merchant Account Insights",
+        "Payment Industry News",
+        "Fintech Trends",
+        "Credit Card Processing Updates",
+        "ACH and Global Payment News"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.alliedpayments.com/#website",
+      "url": "https://www.alliedpayments.com/",
+      "name": "Allied Payments",
+      "publisher": { "@id": "https://www.alliedpayments.com/#organization" }
     },
     {
       "@type": "WebPage",
       "@id": "https://www.alliedpayments.com/newsletter/#webpage",
       "url": "https://www.alliedpayments.com/newsletter/",
-      "name": "Allied Payments Newsletter | Stay Updated on Payment Trends",
-      "description": "Subscribe to the Allied Payments newsletter for the latest updates on payment processing trends, high-risk merchant accounts, and financial technology insights.",
+      "name": "Join the Allied Payments Newsletter | Financial Industry Updates",
+      "description": "Subscribe to the Allied Payments newsletter for the latest merchant services trends, high-risk processing news, and fintech industry insights.",
       "isPartOf": { "@id": "https://www.alliedpayments.com/#website" },
       "breadcrumb": {
         "@type": "BreadcrumbList",
+        "@id": "https://www.alliedpayments.com/newsletter/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -48,13 +72,29 @@
           }
         ]
       },
-      "mainEntity": {
-        "@type": "CreativeWork",
-        "name": "Allied Payments Industry Newsletter",
-        "description": "A professional financial publication covering high-risk merchant services, ACH processing, and fintech trends.",
-        "publisher": { "@id": "https://www.alliedpayments.com/#organization" },
-        "genre": "Financial News"
-      }
+      "mainEntity": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What topics are covered in the Allied Payments newsletter?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our newsletter provides expert analysis on merchant account pricing, high-risk industry updates, fraud prevention strategies, and emerging global payment technologies."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How often will I receive newsletter updates?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Subscribers receive periodic updates containing essential industry news and strategic advice to help businesses optimize their payment processing."
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
