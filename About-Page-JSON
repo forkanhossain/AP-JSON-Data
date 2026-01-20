@@ -18,6 +18,7 @@
       "telephone": "+1-800-315-5755",
       "email": "info@alliedpayments.com",
       "priceRange": "$$",
+      "legalName": "Allied Payments",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "378 Northlake Blvd, Unit 134",
@@ -28,9 +29,9 @@
       },
       "sameAs": [
         "https://www.facebook.com/alliedpayments",
-        "https://www.linkedin.com/company/allied-payments",
-        "https://twitter.com/alliedpayments",
-        "https://www.instagram.com/alliedpayments/"
+        "https://www.linkedin.com/company/alliedpayments/",
+        "https://x.com/alliedpayments",
+        "https://www.youtube.com/@alliedpayments"
       ],
       "knowsAbout": [
         "Payment Processing",
@@ -38,7 +39,8 @@
         "Risk Management",
         "High-Risk Merchant Accounts",
         "ACH Processing",
-        "Fraud Prevention"
+        "Fraud Prevention",
+        "PCI Compliance"
       ]
     },
     {
